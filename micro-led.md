@@ -1,35 +1,25 @@
-# Micro LED
+# LED Fun!
 
-## Toggle an LED
+## On button A pressed
 
 
-Drag the code to toggle an LED.
+Drag the code to on button A pressed
 ```blocks
-basic.forever(function () {
-    led.toggle(0, 0)
+{input.onButtonPressed(Button.A, function () {
 })
 ``` 
 
-## Randomize x 
+## Show String
 
-Drag the code to pick a random ``x`` index
- between ``0`` and ``4``.
-
-
-```blocks
-basic.forever(function () {
-    led.toggle((Math.randomRange(0,4), 0)
-})
+Drag the code to show String. Type "Yay!" for the text. 
+```blocks 
+basic.showString("Yay!")
 ```
 
-## Randomize y
+## Show Icon
 
-Drag the code to pick a random ``y`` index
- between ``0`` and ``4``.
-
- 
-```blocks
-basic.forever(function () {
-    led.toggle(randint(0, 10), randint(0, 5))
+Drag the code to show happy face icon. 
+```blocks 
+basic.showIcon(IconNames.Happy)
 })
 ```

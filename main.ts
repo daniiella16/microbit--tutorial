@@ -1,3 +1,4 @@
-basic.forever(function () {
-    led.toggle(randint(0, 4), randint(0, 4))
+input.onButtonPressed(Button.A, function () {
+    basic.showString("Yay!")
+    basic.showIcon(IconNames.Happy)
 })
