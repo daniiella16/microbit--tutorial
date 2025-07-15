@@ -10,7 +10,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "micro-led.md"
+        "LED-fun.md"
     ],
     "testFiles": [
         "test.ts"
